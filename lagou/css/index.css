@@ -1,0 +1,922 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 14px;
+    font-family: "Hiragino Sans GB", "Microsoft Yahei", SimSun, Arial, "Helvetica Neue", Helvetica;
+    color: #333;
+    text-decoration: none;
+}
+
+body, html {
+    width: 100%;
+    height: auto;
+}
+
+/* 头部样式 */
+.headBox {
+    width: 100%;
+    min-width: 1024px;
+    background: #333;
+}
+
+.tBar {
+    height: 30px;
+    line-height: 30px;
+    margin: 0 auto;
+    max-width: 1308px;
+    position: relative;
+}
+
+.tBar a {
+    color: #c4c3c3;
+    padding: 0 12px;
+}
+
+.tBar_l {
+    float: left;
+}
+
+.tBar_r {
+    float: right;
+}
+
+.loge1 {
+    cursor: pointer;
+    color: #08d7a2;
+    padding: 0 12px 0 27px;
+    background: url("../img/17.png") no-repeat;
+}
+
+.enter {
+    border-left: 1px solid #5d5d5d;
+}
+
+.enroll {
+    border-left: 1px solid #5d5d5d;
+}
+
+.tNav {
+    min-width: 1024px;
+    height: 54px;
+    border-top: 1px solid #d2d2d2;
+    border-bottom: 1px solid #e5e5e5;
+    background-color: #fafafa;
+}
+
+.tNav .tNavInner {
+    width: 1024px;
+    margin: 0 auto;
+    height: 54px;
+    line-height: 54px;
+}
+
+.tNav_l {
+    float: left;
+    width: 260px;
+    overflow: hidden;
+}
+
+.loge2 {
+    background: url("../img/18.png") no-repeat center;
+    display: block;
+    width: 100px;
+    height: 54px;
+    float: left;
+}
+
+.changeCity {
+    float: left;
+    height: 44px;
+    padding-top: 10px;
+    padding-left: 12px;
+    font-size: 18px;
+    line-height: 44px;
+}
+
+.changeCity div {
+    float: left;
+}
+
+.currentCity {
+    margin-right: 8px;
+    color: #333;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.changeOne {
+    color: #999;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.tNavWrap {
+    margin-left: 10px;
+    float: left;
+    position: relative;
+}
+
+.smallIcon {
+    position: absolute;
+    left: 296px;
+    top: 4px;
+    width: 28px;
+    height: 16px;
+    background: url("../img/icon-new.png") no-repeat;
+}
+
+.tNavWrap li {
+    float: left;
+    line-height: 54px;
+    display: inline-block;
+    margin: 0 16px;
+    position: relative;
+
+}
+
+.tNavWrap li a {
+    display: block;
+    font-size: 18px;
+    color: #999;
+    line-height: 53px;
+    padding: 0 5px;
+}
+
+.tNavWrap li .current {
+    color: #333;
+    border-bottom: 2px solid #00b38a;
+}
+
+/* 内容样式 */
+.contentBox {
+    min-height: 844px;
+    width: 1024px;
+    margin: 35px auto 0;
+    /*padding-bottom: 100px;*/
+}
+
+.contentLeft {
+    width: 230px;
+    z-index: 100;
+    float: left;
+    position: relative;
+}
+
+.contentRight {
+    width: 744px;
+    margin-left: 280px;
+    padding-bottom: 50px;
+}
+
+.mainNavs {
+    background: #fafafa;
+    position: relative;
+}
+
+.menu_box {
+    padding: 6px 12px;
+    border: 2px solid #fafafa;
+    border-right: 0;
+    overflow: hidden;
+}
+
+.subTab {
+    position: absolute;
+    top: 0;
+    z-index: 10;
+    width: 540px;
+    padding: 15px 30px 5px;
+    left: 230px;
+    border: 2px solid #c9cbce;
+    background: #fff;
+}
+
+.subTab a:hover {
+    text-decoration: underline;
+    color: #08d7a2;
+}
+
+.subTab span {
+    display: inline-block;
+    padding: 0;
+    float: left;
+    color: #333;
+    width: 90px;
+    line-height: 28px;
+    text-decoration: underline;
+}
+
+.subTab div {
+    width: 440px;
+    float: left;
+
+}
+
+.subTab div {
+    margin-bottom: 20px;
+}
+
+.subTab a {
+    white-space: nowrap;
+    padding: 0 10px;
+    color: #777;
+    line-height: 28px;
+    margin-left: -1px;
+    background: url("../img/arr.png") -29px center no-repeat;
+}
+
+.menu_box h2 {
+    clear: both;
+    display: block;
+    height: 44px;
+}
+
+.menu_box h2 span {
+    font-size: 18px !important;
+    padding-left: 8px;
+    font-weight: 500;
+    margin: 10px 0;
+    display: block;
+    line-height: 22px;
+    float: left;
+}
+
+.menu_box h2 .move {
+    float: right;
+    color: #999;
+    margin-top: 14px;
+    padding: 0;
+    display: inline-block;
+    width: 13px;
+    height: 14px;
+    background: url("../img/arr.png") 0 0 no-repeat;
+}
+
+.menu_main a {
+    float: left;
+    white-space: nowrap;
+    margin: 0 5px 5px 0;
+    padding: 0 8px;
+}
+
+.menu_main a:hover {
+    text-decoration: underline;
+    color: #08d7a2;
+}
+
+/* banner加穿墙效果 */
+.searchBox {
+    display: block;
+    overflow: hidden;
+}
+
+.searchCurrent {
+    width: 570px;
+    height: 23px;
+    line-height: 23px;
+    float: left;
+    font-size: 16px;
+    padding: 5px 8px 5px 10px;
+    margin: 0;
+    border: 2px solid #00b38a;
+    border-right: 0;
+    color: #666;
+}
+
+.searchButton {
+    height: 37px;
+    width: 154px;
+    color: #FFF;
+    font-size: 18px;
+    border: 2px solid #00b38a;
+    background: #00b38a;
+    float: left;
+    cursor: pointer;
+}
+
+.hotSearch {
+    height: 20px;
+    display: block;
+    list-style: none;
+    overflow: hidden;
+    margin: 6px 0 18px;
+}
+
+.hotSearch span {
+    display: block;
+    float: left;
+    width: 70px;
+    font-size: 14px;
+}
+
+.hotSearch li {
+    border-bottom: 1px solid white;
+    float: left;
+    color: #00b38a;
+    margin-right: 20px;
+    font-size: 14px;
+}
+
+.homeBanner {
+    width: 744px;
+    height: 160px;
+    position: relative;
+    margin: 0 0 18px;
+    overflow: hidden;
+}
+
+.bannerBox {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 612px;
+    height: 160px;
+    position: absolute;
+    left: 0;
+}
+
+.bannerTip {
+    float: right;
+    position: relative;
+}
+
+.bannerTip div {
+    padding-left: 7px;
+    margin-bottom: 5px;
+    height: 50px;
+}
+
+.bannerTip img {
+    border: 4px solid #d3d3d3;
+}
+
+.bannerTip em {
+    width: 127px;
+    height: 50px;
+    display: block;
+    position: absolute;
+    left: 0;
+    z-index: 300;
+    background: url("../img/control_current.png") 0 0 no-repeat;
+
+}
+
+.throughWall {
+    width: 100%;
+    height: 120px;
+    margin: 0 0 25px;
+    padding: 0;
+}
+
+.throughWall div {
+    width: 113px;
+    height: 113px;
+    float: left;
+    border: 2px solid #fafafa;
+    position: relative;
+    overflow: hidden;
+    margin-right: 8px;
+    font-size: 30px;
+    text-align: center;
+    line-height: 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+    box-shadow: 0 0 10px #ccc;
+}
+
+.throughWall div span {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: -113px;
+    top: 0;
+    background: darkgreen;
+    color: white;
+    opacity: 0.5;
+    filter: alpha(opacity=50)
+}
+
+.throughWall .throughWallBg1 {
+    background-image: url('../img/14.png');
+    background-size: 100%;
+}
+
+.throughWall .throughWallBg2 {
+    background-image: url('../img/2.jpg');
+    background-size: 100%;
+}
+
+.throughWall .throughWallBg3 {
+    background-image: url('../img/18.jpg');
+    background-size: 100%;
+}
+
+.throughWall .throughWallBg4 {
+    background-image: url('../img/8.png');
+    background-size: 100%;
+}
+
+.throughWall .throughWallBg5 {
+    background-image: url('../img/3.jpg');
+    background-size: 100%;
+}
+
+.throughWall .throughWallBg6 {
+    background-image: url('../img/19.PNG');
+    background-size: 100%;
+    margin: 0;
+}
+
+/* 具体信息 */
+.tab {
+    height: 39px;
+    display: block;
+    background: #f6f6f6;
+    list-style: none;
+}
+
+.tab li {
+    float: left;
+    padding: 7px 20px;
+    color: #999;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.tab .currentOn {
+    color: #333;
+    border-top: 3px solid #00b38a;
+    background: white;
+    padding-top: 5px;
+}
+
+.detailTop {
+    width: 100%;
+    overflow: hidden;
+}
+
+.detailTopLeft {
+    height: 62px;
+    background: white;
+    padding-top: 22px;
+    padding-left: 15px;
+    overflow: hidden;
+    float: left;
+    width: 350px;
+}
+
+.detailTopLeft .pay {
+    font-size: 16px;
+    color: #fa6041;
+    margin-right: 20px;
+    height: 28px;
+}
+
+.detailTopRight {
+    height: 62px;
+    background: white;
+    padding-top: 22px;
+    padding-left: 15px;
+    overflow: hidden;
+    float: left;
+    width: 350px;
+}
+
+.detailTopLeftFirst {
+    height: 34px;
+}
+
+.detailTopLeftFirst .job, .detailTopRight .company {
+    font-size: 16px;
+    color: #00b38a;
+}
+
+.company {
+    display: block;
+    height: 34px;
+}
+
+.detailTopLeftFirst .time {
+    color: #999;
+    font-size: 14px;
+    margin-left: 10px;
+}
+
+.detailBottom {
+    display: block;
+    width: 100%;
+    height: 39px;
+    background: #fafafa;
+    border-bottom: 1px dashed #e1e1e1;
+}
+
+.detailCurrent {
+    height: 28px;
+    display: block;
+}
+
+.detailBottomLeft, .detailBottomRight {
+    float: left;
+    width: 350px;
+    line-height: 39px;
+    padding-left: 16px;
+}
+
+.detailBottomRight span {
+    display: inline-block;
+    height: 22px;
+    margin-right: 10px;
+    padding: 0 3px;
+    line-height: 22px;
+    border: 1px solid #dcdcdc;
+}
+
+/* 底部 */
+.moreEle {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 32px;
+}
+
+.moreEle span {
+    float: right;
+    display: block;
+    font-size: 16px;
+    color: #fff;
+    padding: 5px 40px 5px 15px;
+    background: #00b38a url('../img/0.png') 88px center no-repeat;
+}
+
+.bottom {
+    border-top: 1px solid #e1e1e1;
+    /*height: 400px;*/
+    width: 100%;
+    padding: 10px 0;
+    clear: both;
+}
+
+.bottom div {
+    float: left;
+}
+
+.bottom .bottomLeft {
+    width: 70px;
+    height: 20px;
+    line-height: 20px;
+    margin-top: 4px;
+    font-size: 15px;
+}
+
+.bottom .bottomMiddle {
+    width: 614px;
+    height: 24px;
+    overflow: hidden;
+}
+
+.bottom .bottomMiddle a {
+    white-space: nowrap;
+    float: left;
+    height: 15px;
+    padding: 8px 9px;
+    font-size: 12px;
+    line-height: 15px;
+    color: #555;
+    text-decoration: none;
+}
+
+.bottom .bottomRight {
+    float: right;
+    height: 15px;
+    padding: 8px 9px;
+    padding-right: 20px;
+    font-size: 12px;
+    line-height: 15px;
+    color: #555;
+    cursor: pointer;
+    text-decoration: none;
+    background: url("../img/arrow_down.png") 36px 14px no-repeat;
+}
+
+.bottomBanner {
+    z-index: 300;
+    width: 100%;
+    height: 64px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    background: url("../img/footerbar_repeat_c5aebac.png") repeat-x;
+}
+
+.bottomBanner1 {
+    z-index: 300;
+    width: 100%;
+    height: 64px;
+    background: url("../img/footerbar_repeat_c5aebac.png") repeat-x;
+}
+
+.bottomBannerContext {
+    width: 1024px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.bottomBannerImg {
+    width: 95px;
+    height: 54px;
+    display: block;
+    background: url("../img/footbar_img_d9299f5.png") no-repeat;
+    position: absolute;
+    top: -54px;
+    left: -110px;
+}
+
+.bottomBannerContext img {
+    position: absolute;
+    left: -110px;
+    top: 10px;
+}
+
+.bottomBannerCompany {
+    font-size: 32px;
+    line-height: 64px;
+    font-weight: 100;
+    color: #dafaf4;;
+    display: inline-block;
+    height: 64px;
+    position: absolute;
+    left: 290px;
+
+}
+
+.bottomBannerJob {
+    line-height: 64px;
+    font-weight: 100;
+    position: absolute;
+    left: 510px;
+}
+
+.bottomBannerCompany i, .bottomBannerJob i {
+    display: inline-block;
+    height: 64px;
+    font-size: 28px;
+    width: 18px;
+    color: #dafaf4;
+}
+
+.bottomBannerCompany em, .bottomBannerJob em {
+    display: inline-block;
+    font-size: 14px;
+    color: #dafaf4;
+}
+
+.login {
+    height: 64px;
+    position: absolute;
+    left: 790px;
+    line-height: 64px;
+    font-size: 24px;
+    color: #fff;
+    display: block;
+    padding: 0 48px;
+    background: url("../img/footbar_btn_green_hover_e17c99f.png") repeat-x;
+}
+
+.login:hover {
+    background: #08d7a2;
+}
+
+.register {
+    height: 64px;
+    width: 1024px;
+    position: absolute;
+    left: 932px;
+    top: 0;
+    background: url("../img/footbar_btn_red_90cc061.png") repeat-x;
+}
+
+.register img {
+    height: 24px;
+    width: 119px;
+    display: block;
+    margin-top: 12px;
+    margin-left: 156px;
+}
+
+.footer {
+    width: 1024px;
+    margin: 0 auto;
+    min-width: 1024px;
+    background-color: #fff;
+    clear: both;
+    height: 67px;
+    position: relative;
+}
+
+.footerImg {
+    margin-top: 10px;
+    margin-left: 10px;
+    z-index: 1;
+    display: inline-block;
+    width: 198px;
+    height: 19px;
+    background: url("../img/111.png") no-repeat;
+    float: left;
+}
+
+.footerContext {
+    float: right;
+    display: inline-block;
+}
+
+.footerContextOne {
+    padding-top: 12px;
+    float: right;
+    height: 14px;
+    line-height: 14px;
+    white-space: nowrap;
+}
+
+.footerContextOne a {
+    margin-right: 12px
+}
+
+.footerContextOne a.curA {
+    padding-right: 34px;
+    background: url("../img/new1.png") no-repeat 56px 0;
+}
+
+.footerContextTwo {
+    marign-top: 30px;
+    height: 25px;
+    width: 100%;
+}
+
+.footerContextTwo img {
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.footerContextTwo span {
+    display: inline-block;
+    margin-left: 30px;
+    color: #999;
+    height: 25px;
+    font-size: 12px;
+    line-height: 25px;
+}
+
+/*交互效果*/
+.tBar a:hover {
+    color: white;
+}
+
+.tNavWrap a:hover {
+    color: #333;
+    border-bottom: 2px solid #00b38a;
+}
+
+.menu_box:hover {
+    border: 2px solid #c9cbce;
+    border-right: 2px solid #fff;
+    background: white;
+    z-index: 200;
+}
+
+#bg1 {
+    width: 4px;
+    height: 152px;
+    background: white;
+    position: absolute;
+    left: -3px;
+    top: 0;
+}
+
+#bg2 {
+    width: 4px;
+    height: 104px;
+    background: white;
+    position: absolute;
+    left: -3px;
+    top: 40px;
+}
+
+#bg3 {
+    width: 4px;
+    height: 104px;
+    background: white;
+    position: absolute;
+    left: -3px;
+    top: 130px;
+}
+
+#bg4 {
+    width: 4px;
+    height: 104px;
+    background: white;
+    position: absolute;
+    left: -3px;
+    top: 72px;
+}
+
+#bg5 {
+    width: 4px;
+    height: 104px;
+    background: white;
+    position: absolute;
+    left: -3px;
+    top: 198px;
+}
+
+#bg6 {
+    width: 4px;
+    height: 80px;
+    background: white;
+    position: absolute;
+    left: -3px;
+    top: 100px;
+}
+
+#bg7 {
+    width: 4px;
+    height: 80px;
+    background: white;
+    position: absolute;
+    left: -3px;
+    top: 78px;
+}
+
+.hotSearch li:hover {
+    border-bottom: 1px solid #00b38a;
+    cursor: pointer;
+}
+
+.bannerBox li {
+    width: 612px;
+    height: 160px;
+    display: block;
+}
+
+.feedback {
+    font-size: 12px;
+    color: #999;
+    margin-left: -9px;
+    margin-top: 10px;
+}
+
+#App, #weChat {
+    position: relative;
+}
+
+.AppImg, .weChatImg {
+    display: none;
+    border: 3px solid #0D9572;
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+    z-index: 1001;
+    width: 256px;
+    height: 256px;
+}
+
+.fixedBox {
+    position: fixed;
+    left: 50%;
+    bottom: 80px;
+    margin-left: 548px;
+    cursor: pointer;
+}
+
+.toTop {
+    display: none;
+    background: url("../img/backtop_4d5862f.png") 0 0 no-repeat;
+    width: 28px;
+    height: 64px;
+}
+
+.toTop:hover {
+    background: url("../img/backtop_4d5862f.png") -28px 0 no-repeat;
+}
+
+.callback {
+    margin-top: 20px;
+    background: url("../img/feedback_06c5af9.png") 0 0 no-repeat;
+    width: 30px;
+    height: 30px;
+}
+
+.callback:hover {
+    background: url("../img/feedback_06c5af9.png") 0 -31px no-repeat;
+}
+
+.moreBox {
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.bottomMiddle a:hover {
+    color: #00b38a;
+    text-decoration: underline;
+}
