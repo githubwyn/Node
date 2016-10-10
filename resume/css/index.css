@@ -45,76 +45,76 @@ html, body {
     width: 1.9rem;
     height: 0.475rem;
     left: 0.65rem;
-    top: 1rem;
+    top: 0.8rem;
 }
 
 .slide1 img:nth-child(4) {
     width: 1.25rem;
     height: 1.25rem;
     left: 1.05rem;
-    top: 1.9rem;
+    top: 1.6rem;
 }
 .slide1 img:nth-child(5) {
     width: 1.25rem;
     height: 1.25rem;
     left: 1.05rem;
-    top: 1.9rem;
+    top: 1.6rem;
 }
 
 .slide1 span:nth-child(6) {
     display: block;
     font-size: 0.15rem;
     left: 0.6rem;
-    bottom: 1.9rem;
+    bottom: 34%;
 }
 
 .slide1 span:nth-child(7) {
     display: block;
     font-size: 0.15rem;
     left: 1.1rem;
-    bottom: 1.9rem;
+    bottom: 34%;
 }
 
 .slide1 span:nth-child(8) {
     display: block;
     font-size: 0.15rem;
     left: 0.6rem;
-    bottom: 1.55rem;
+    bottom: 26%;
 }
 
 .slide1 span:nth-child(9) {
     display: block;
     font-size: 0.15rem;
     left: 1.1rem;
-    bottom: 1.55rem;
+    bottom: 26%;
 }
 
 .slide1 span:nth-child(10) {
     display: block;
     font-size: 0.15rem;
     left: 0.6rem;
-    bottom: 1.2rem;
+    bottom: 18%;
 }
 
 .slide1 span:nth-child(11) {
     display: block;
     font-size: 0.15rem;
     left: 1.1rem;
-    bottom: 1.2rem;
+    bottom: 18%;
 }
 
 .slide1 span:nth-child(12) {
     display: block;
     font-size: 0.15rem;
     left: 0.6rem;
-    bottom: 0.85rem;
+    bottom: 10%;
 }
 
 .slide1 span:nth-child(13) {
     display: block;
     font-size: 0.15rem;
     left: 1.1rem;
-    bottom: 0.85rem;
+    bottom: 10%;
 }
 
 #page1 img:nth-child(3) {
@@ -226,45 +226,45 @@ html, body {
 }
 /*圆圈*/
 .slide2 img:nth-child(10) {
-    width: 0.6rem;
-    height:0.6rem;
-    bottom: 1.55rem;
-    left: 0.33rem;
+    width: 0.56rem;
+    height:0.56rem;
+    bottom: 1.57rem;
+    left: 0.35rem;
 }
 
 .slide2 img:nth-child(11) {
-    width: 0.6rem;
-    height:0.6rem;
-    bottom: 1.55rem;
-    left: 41%;
+    width: 0.56rem;
+    height:0.56rem;
+    bottom: 1.57rem;
+    left: 41.4%;
 }
 
 .slide2 img:nth-child(12) {
-    width: 0.6rem;
-    height:0.6rem;
-    bottom: 1.55rem;
-    right: 0.33rem;
+    width: 0.56rem;
+    height:0.56rem;
+    bottom: 1.57rem;
+    right: 0.35rem;
 }
 
 .slide2 img:nth-child(13) {
-    width: 0.6rem;
-    height:0.6rem;
-    bottom: 0.65rem;
-    left: 0.33rem;
+    width: 0.56rem;
+    height:0.56rem;
+    bottom: 0.7rem;
+    left: 0.35rem;
 }
 
 .slide2 img:nth-child(14) {
-    width: 0.6rem;
-    height:0.6rem;
-    bottom: 0.65rem;
-    left: 41%;
+    width: 0.56rem;
+    height:0.56rem;
+    bottom: 0.7rem;
+    left: 41.4%;
 }
 
 .slide2 img:nth-child(15) {
-    width: 0.6rem;
-    height:0.6rem;
-    bottom: 0.65rem;
-    right: 0.33rem;
+    width: 0.56rem;
+    height:0.56rem;
+    bottom: 0.7rem;
+    right: 0.35rem;
 }
 /*logo*/
 .slide2 img:nth-child(16) {
@@ -291,21 +291,21 @@ html, body {
 .slide2 img:nth-child(19) {
     width: 0.5rem;
     height:0.5rem;
-    bottom: 0.7rem;
+    bottom: 0.73rem;
     left: 0.38rem;
 }
 
 .slide2 img:nth-child(20) {
     width: 0.5rem;
     height:0.5rem;
-    bottom: 0.7rem;
+    bottom: 0.73rem;
     left: 42.3%;
 }
 
 .slide2 img:nth-child(21) {
     width: 0.5rem;
     height:0.5rem;
-    bottom: 0.7rem;
+    bottom: 0.73rem;
     right: 0.38rem;
 }
 
@@ -412,7 +412,7 @@ html, body {
     width:0.1rem;
     height:65%;
     bottom: 0.7rem;
-    left: 0.3rem;
+    left: 0.35rem;
 }
 
 .slide3 img:nth-child(9) {
@@ -425,70 +425,70 @@ html, body {
 .slide3 img:nth-child(10) {
     width:2.1rem;
     height:0.6rem;
-    bottom: 0.8rem;
-    left: 0.6rem;
+    bottom: 15%;
+    left: 0.7rem;
 }
 .slide3 img:nth-child(11) {
     width:0.5rem;
     height:0.5rem;
-    bottom: 1.25rem;
+    bottom: 23%;
     left: 0.55rem;
 }
 .slide3 span:nth-child(12) {
     font-size: 0.15rem;
-    bottom: 1.4rem;
+    bottom: 28%;
     left: 1.2rem;
 }
 .slide3 span:nth-child(13) {
     font-size: 0.13rem;
-    bottom: 0.95rem;
-    left: 0.8rem;
+    bottom: 19%;
+    left: 0.9rem;
 }
 /*中软*/
 .slide3 img:nth-child(14) {
     width:2.1rem;
     height:0.6rem;
-    bottom: 2.05rem;
-    left: 0.6rem;
+    bottom: 38%;
+    left: 0.7rem;
 }
 .slide3 img:nth-child(15) {
     width:0.5rem;
     height:0.5rem;
-    bottom: 2.5rem;
+    bottom: 46%;
     left: 0.55rem;
 }
 .slide3 span:nth-child(16) {
     font-size: 0.15rem;
-    bottom: 2.65rem;
+    bottom: 51%;
     left: 1.2rem;
 }
 .slide3 span:nth-child(17) {
     font-size: 0.13rem;
-    bottom: 2.2rem;
-    left: 0.8rem;
+    bottom: 42%;
+    left: 0.9rem;
 }
 /*华为*/
 .slide3 img:nth-child(18) {
     width:2.1rem;
     height:0.6rem;
-    bottom: 3.25rem;
-    left: 0.6rem;
+    bottom: 61%;
+    left: 0.7rem;
 }
 .slide3 img:nth-child(19) {
     width:0.5rem;
     height:0.5rem;
-    bottom: 3.65rem;
+    bottom: 68%;
     left: 0.55rem;
 }
 .slide3 span:nth-child(20) {
     font-size: 0.15rem;
-    bottom: 3.85rem;
+    bottom: 74%;
     left: 1.2rem;
 }
 .slide3 span:nth-child(21) {
     font-size: 0.13rem;
-    bottom: 3.4rem;
-    left: 0.8rem;
+    bottom: 65%;
+    left: 0.9rem;
 }
 
 #page3 span:nth-child(7) {
@@ -633,29 +633,29 @@ html, body {
 /*pc端*/
 .slide4 img:nth-child(8) {
     display: block;
-    width:0.7rem;
-    height:0.7rem;
-    bottom: 3.6rem;
-    left: 1.25rem;
+    width:0.67rem;
+    height:0.67rem;
+    bottom: 3.46rem;
+    left: 40%;
 }
 .slide4 img:nth-child(9) {
     display: block;
-    width:0.6rem;
-    height:0.6rem;
-    bottom: 3.68rem;
-    left: 1.3rem;
+    width:0.56rem;
+    height:0.56rem;
+    bottom: 3.54rem;
+    left: 41.6%;
 }
 .slide4 img:nth-child(10) {
     display: block;
     width:2.4rem;
     height:0.8rem;
-    bottom: 2.5rem;
+    bottom: 2.39rem;
     left: 0.4rem;
 }
 .slide4 span:nth-child(11) {
     font-size: 0.15rem;
     color: red;
-    bottom: 3.35rem;
+    bottom: 3.23rem;
     left: 1.25rem;
 }
 .slide4 span:nth-child(12) {
@@ -663,24 +663,24 @@ html, body {
     color: white;
     line-height: 0.225rem;
     width:2.2rem;
-    bottom: 2.55rem;
+    bottom: 2.5rem;
     left: 0.5rem;
 }
 
 /*手机端*/
 .slide4 img:nth-child(13) {
     display: block;
-    width:0.7rem;
-    height:0.7rem;
+    width:0.67rem;
+    height:0.67rem;
     bottom: 1.6rem;
-    left: 1.25rem;
+    left: 40%;
 }
 .slide4 img:nth-child(14) {
     display: block;
-    width:0.6rem;
-    height:0.6rem;
+    width:0.56rem;
+    height:0.56rem;
     bottom: 1.68rem;
-    left: 1.3rem;
+    left: 41.6%;
 }
 .slide4 img:nth-child(15) {
     display: block;
@@ -741,6 +741,62 @@ html, body {
 }
 
 /*第五页样式*/
+
+.slide5 img:nth-child(7) {
+    width: 1.5rem;
+    height:1.5rem;
+    top: 15%;
+    left: 27%;
+}
+.slide5 span:nth-child(8) {
+    display: block;
+    font-size: 0.15rem;
+    color:white;
+    top: 48%;
+    left: 26%;
+}
+
+.slide5 span:nth-child(9) {
+    display: block;
+    font-size: 0.15rem;
+    left: 0.6rem;
+    bottom: 38%;
+}
+
+.slide5 span:nth-child(10) {
+    display: block;
+    font-size: 0.15rem;
+    left: 1.1rem;
+    bottom: 38%;
+}
+
+.slide5 span:nth-child(11) {
+    display: block;
+    font-size: 0.15rem;
+    left: 0.6rem;
+    bottom: 30%;
+}
+
+.slide5 span:nth-child(12) {
+    display: block;
+    font-size: 0.15rem;
+    left: 1.1rem;
+    bottom: 30%;
+}
+.slide5 span:nth-child(13) {
+    display: block;
+    font-size: 0.15rem;
+    left: 0.6rem;
+    bottom: 22%;
+}
+
+.slide5 span:nth-child(14) {
+    display: block;
+    font-size: 0.15rem;
+    left: 1.1rem;
+    bottom: 22%;
+}
+
 #page5 img:nth-child(1),#page4 img:nth-child(1),#page3 img:nth-child(1),#page2 img:nth-child(1),#page1 img:nth-child(1) {
     animation: fadeIn 1s 0s both;
     -webkit-animation: fadeIn 1s 0s both;
@@ -759,13 +815,46 @@ html, body {
     opacity: 1;
 }
 
-#page5 span:nth-child(7) {
+#page5 img:nth-child(7) {
     animation: zoomIn 1s 0.3s both;
-    -webkit-animation: zoomIn 1s 0.3s both;
+    -webkit-animation: zoomIn 1s 0.8s both;
     opacity: 1;
 }
-
-
+#page5 span:nth-child(8) {
+    animation: zoomIn 1s 0.3s both;
+    -webkit-animation: zoomIn 1s 0.8s both;
+    opacity: 1;
+}
+#page5 span:nth-child(9) {
+    animation: bounceInRight 1s 1.3s both;
+    -webkit-animation: bounceInRight 1s 1.3s both;
+    opacity: 1;
+}
+#page5 span:nth-child(10) {
+    animation: bounceInRight 1s 1.3s both;
+    -webkit-animation: bounceInRight 1s 1.3s both;
+    opacity: 1;
+}
+#page5 span:nth-child(11) {
+    animation: bounceInRight 1s 1.3s both;
+    -webkit-animation: bounceInRight 1s 1.3s both;
+    opacity: 1;
+}
+#page5 span:nth-child(12) {
+    animation: bounceInRight 1s 1.3s both;
+    -webkit-animation: bounceInRight 1s 1.3s both;
+    opacity: 1;
+}
+#page5 span:nth-child(13) {
+    animation: bounceInRight 1s 1.3s both;
+    -webkit-animation: bounceInRight 1s 1.3s both;
+    opacity: 1;
+}
+#page5 span:nth-child(14) {
+    animation: bounceInRight 1s 0.3s both;
+    -webkit-animation: bounceInRight 1s 1.3s both;
+    opacity: 1;
+}
 
 .music {
     width: 0.3rem;
