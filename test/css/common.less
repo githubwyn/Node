@@ -1,0 +1,17 @@
+@color-text: #000;
+@img: '../img';
+
+.background(@url) {
+  background: data-uri("@{img}/@{url}") no-repeat;
+  background-size: 100% 100%;
+}
+
+.transition(@property:all,@duration:1s,@time-function:linear,@delay:0s) {
+  -webkit-transition: @arguments;
+  transition: @arguments;
+}
+
+.animation(@name:bounceInLeft,@duration:1s,@time-function:linear,@delay:0s,@count:1,@fill-mode:both) {
+  -webkit-animation: @arguments;
+  animation: @arguments;
+}
