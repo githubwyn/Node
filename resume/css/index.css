@@ -515,14 +515,14 @@ html, body {
 }
 
 #page3 span:nth-child(12) {
-    animation: flipInX 1s 1.7s both;
-    -webkit-animation: flipInX 1s 1.7s both;
+    animation: bounceIn 1s 1.7s both;
+    -webkit-animation: bounceIn 1s 1.7s both;
     opacity: 1;
 }
 
 #page3 span:nth-child(13) {
-    animation: flipInX 1s 1.8s both;
-    -webkit-animation: flipInX 1s 1.8s both;
+    animation: bounceIn 1s 1.8s both;
+    -webkit-animation: bounceIn 1s 1.8s both;
     opacity: 1;
 }
 /*履历2*/
@@ -539,14 +539,14 @@ html, body {
 }
 
 #page3 span:nth-child(16) {
-    animation: flipInX 1s 2.7s both;
-    -webkit-animation: flipInX 1s 2.7s both;
+    animation: bounceIn 1s 2.7s both;
+    -webkit-animation: bounceIn 1s 2.7s both;
     opacity: 1;
 }
 
 #page3 span:nth-child(17) {
-    animation: flipInX 1s 2.8s both;
-    -webkit-animation: flipInX 1s 2.8s both;
+    animation: bounceIn 1s 2.8s both;
+    -webkit-animation: bounceIn 1s 2.8s both;
     opacity: 1;
 }
 /*履历3*/
@@ -563,14 +563,14 @@ html, body {
 }
 
 #page3 span:nth-child(20) {
-    animation: flipInX 1s 3.7s both;
-    -webkit-animation: flipInX 1s 3.7s both;
+    animation: bounceIn 1s 3.7s both;
+    -webkit-animation: bounceIn 1s 3.7s both;
     opacity: 1;
 }
 
 #page3 span:nth-child(21) {
-    animation: flipInX 1s 3.8s both;
-    -webkit-animation: flipInX 1s 3.8s both;
+    animation: bounceIn 1s 3.8s both;
+    -webkit-animation: bounceIn 1s 3.8s both;
     opacity: 1;
 }
 
@@ -796,6 +796,19 @@ html, body {
     left: 1.1rem;
     bottom: 22%;
 }
+.slide5 span:nth-child(15) {
+    display: block;
+    font-size: 0.15rem;
+    left: 0.6rem;
+    bottom: 14%;
+}
+
+.slide5 span:nth-child(16) {
+    display: block;
+    font-size: 0.15rem;
+    left: 1.1rem;
+    bottom: 14%;
+}
 
 #page5 img:nth-child(1),#page4 img:nth-child(1),#page3 img:nth-child(1),#page2 img:nth-child(1),#page1 img:nth-child(1) {
     animation: fadeIn 1s 0s both;
@@ -850,8 +863,8 @@ html, body {
     -webkit-animation: bounceInRight 1s 1.3s both;
     opacity: 1;
 }
-#page5 span:nth-child(14) {
-    animation: bounceInRight 1s 0.3s both;
+#page5 span:nth-child(14),#page5 span:nth-child(15),#page5 span:nth-child(16) {
+    animation: bounceInRight 1s 1.3s both;
     -webkit-animation: bounceInRight 1s 1.3s both;
     opacity: 1;
 }

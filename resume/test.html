@@ -13,7 +13,7 @@
 <body>
 <div class="main">
     <div class="music">
-        <audio src="audio/Williams.mp3" loop preload="none" id="audioMusic"></audio>
+        <audio src="audio/Williams1.mp3" loop preload="none" id="audioMusic"></audio>
     </div>
     <div class="swiper-container">
         <div class="swiper-wrapper">
@@ -132,6 +132,8 @@
                 <!--内容-->
                 <img src="img/image/number.png" alt=""/>
                 <span>扫一扫，了解更多信息</span>
+                <span>姓名：</span>
+                <span>魏亚楠</span>
                 <span>职位：</span>
                 <span>前端工程师</span>
                 <span>电话：</span>
@@ -161,7 +163,8 @@
     var mySwiper = new Swiper(".swiper-container",{
         direction : "vertical",
         loop:true,
-        effect:"cube",
+//        effect:"cube",
+//        effect:"flip",
         onSlideChangeEnd :function(swiper){
             var slideAry = swiper.slides;
             var trueSlideNum = slideAry.length-2;
